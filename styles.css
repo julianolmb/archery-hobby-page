@@ -1,14 +1,22 @@
+* {
+  outline: 1px solid blue;
+}
+
 .ourstory-img {
   width: 50%;
   min-width: 250px;
 }
 
 .tradarchery-img {
-  width: 40%;
+  width: 75%;
   min-width: 250px;
 }
 
 .intro-img {
   width: 100vw;
-  min-height: 500px;
+}
+
+.navbar-top {
+  background-color: yellow;
+  color: antiquewhite;
 }
