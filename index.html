@@ -11,13 +11,21 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Antic+Didone&family=PT+Serif:wght@700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <nav
-      class="navbar-top navbar navbar-dark bg-dark sticky-top navbar-expand-lg"
+      class="navbar-top d-flex navbar navbar-light sticky-top navbar-expand-lg p-0"
     >
       <div class="container">
-        <a href="#" class="navbar-brand">Medieval Oca</a>
+        <a href="#" class="navbar-brand p-0">
+          <img class="navbar-logo" src="assets/logo2.jpg" alt="logo" />
+        </a>
         <button
           class="navbar-toggler"
           type="button"
@@ -28,19 +36,19 @@
         </button>
         <div class="collapse navbar-collapse text" id="navmenu">
           <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
+            <li class="nav-item mx-3">
               <a href="#learn" class="nav-link">Traditional Archery</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item mx-3">
               <a href="#learn" class="nav-link">Articles</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item mx-3">
               <a href="#learn" class="nav-link">Our Story</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item mx-3">
               <a href="#learn" class="nav-link">Suppliers</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item mx-3">
               <a href="#learn" class="nav-link">Contact</a>
             </li>
           </ul>
@@ -51,13 +59,13 @@
     <section class="intro-section">
       <div class="intro-container"></div>
       <div
-        class="d-flex justify-content-center bg-warning text-light p-1 p-lg-3 testing"
+        class="intro-container-text d-flex justify-content-center text-light p-2 p-lg-5"
       >
         <h5 class="m-2">What is Traditional Archery?</h5>
       </div>
     </section>
 
-    <section class="tradarchery-section p-3 my-3 p-lg-5 my-lg-5">
+    <section class="tradarchery-section p-3 p-lg-5 my-lg-3">
       <div class="d-md-flex align-items-center">
         <div>
           <!-- <h2>What is traditional archery?</h2> -->
@@ -91,12 +99,12 @@
         </div>
       </div>
     </section>
-    <section class="ourstory-section bg-dark text-light p-5">
+    <section class="ourstory-section text-light p-5">
       <div
-        class="d-md-flex flex-sm-row-reverse align-items-center my-3 my-lg-5"
+        class="d-md-flex flex-sm-row-reverse align-items-center my-2 my-lg-4"
       >
         <div>
-          <h2 class="text-warning p-3">Our Story</h2>
+          <h2 class="ourstory-header p-3">Our Story</h2>
           <p class="lead p-3">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat,
             similique deserunt nihil doloremque voluptatum mollitia
@@ -118,7 +126,7 @@
       </div>
     </section>
 
-    <section class="articles-section mt-5">
+    <section class="articles-section py-lg-5 py-4">
       <div
         class="articles-first-row d-flex flex-column flex-md-row align-items-center justify-content-center"
       >
@@ -233,7 +241,7 @@
       </div>
     </section>
 
-    <section class="newsletter-section bg-warning text-light p-3 p-lg-5">
+    <section class="newsletter-section text-dark p-3 p-lg-5">
       <div class="container">
         <div class="d-md-flex justify-content-center align-items-center">
           <h3 class="mb-md-0">Sign to our newsletter</h3>
@@ -250,7 +258,7 @@
 
     <section class="footer-section">
       <div class="footer-image"></div>
-      <footer class="p-5 bg-dark text-white text-center position-relative">
+      <footer class="p-5 text-white text-center position-relative">
         <div class="container">
           <p class="lead">
             Copyright &copy; 2022 Medieval Oca Archery Group, all rights

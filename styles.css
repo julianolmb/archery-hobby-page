@@ -2,11 +2,80 @@ html {
   font-size: 16px;
 }
 
+body {
+  font-family: "Antic Didone", serif;
+}
+
+.navbar-top {
+  background-color: #ffd925;
+  box-shadow: 0px 3px 6px -2px rgba(0, 0, 0, 0.762);
+  font-size: 1.1rem;
+  font-family: "PT Serif", serif;
+}
+
+.navbar-logo {
+  width: 200px;
+  height: 70px;
+}
+
+.intro-section {
+  font-family: "PT Serif", serif;
+}
+
 .intro-container {
   background-image: url(assets/archery-pic-main.jpeg);
   background-size: cover;
   background-position: center;
   min-height: 800px;
+}
+
+.intro-container-text {
+  box-shadow: 0 2px 3px -1px rgba(50, 50, 50, 0.45);
+}
+
+.ourstory-section,
+.footer-section,
+.intro-section {
+  background-color: rgb(15, 15, 15);
+}
+
+.tradarchery-img {
+  width: 75%;
+  min-width: 300px;
+}
+
+.ourstory-header {
+  color: #ffd925;
+}
+
+.ourstory-img {
+  width: 400px;
+  min-width: 250px;
+}
+
+.card-text,
+.nav-link {
+  text-decoration: none;
+  color: black;
+}
+
+.card-text:hover {
+  color: black;
+  text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.75);
+}
+
+.nav-link:hover {
+  color: white;
+}
+
+.card-img-top {
+  width: 100%;
+}
+
+.newsletter-section {
+  font-family: "PT Serif", serif;
+  box-shadow: 0px -1px 3px rgba(50, 50, 50, 0.6);
+  background-color: #ffd925;
 }
 
 .footer-image {
@@ -16,31 +85,4 @@ html {
   min-height: 300px;
   box-shadow: inset 0px 4px 5px -3px rgba(50, 50, 50, 0.5);
   border-bottom: 1px solid black;
-}
-
-.newsletter-section {
-  box-shadow: 0px -1px 3px rgba(50, 50, 50, 0.6);
-}
-
-.testing {
-  box-shadow: 0 2px 3px -1px rgba(50, 50, 50, 0.45);
-}
-
-.ourstory-img {
-  width: 400px;
-  min-width: 250px;
-}
-
-.tradarchery-img {
-  width: 75%;
-  min-width: 300px;
-}
-
-.navbar-top {
-  background-color: rgb(255, 193, 7);
-  box-shadow: 0px 3px 6px -2px rgba(0, 0, 0, 0.4);
-}
-
-.card-img-top {
-  width: 100%;
 }
